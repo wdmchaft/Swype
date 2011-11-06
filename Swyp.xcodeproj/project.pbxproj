@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5688177714675283006E175D /* FlickrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5688177614675283006E175D /* FlickrViewController.m */; };
+		5688177B14675296006E175D /* SmugMugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5688177A14675296006E175D /* SmugMugViewController.m */; };
+		5688177E146752AB006E175D /* 500pxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5688177D146752AB006E175D /* 500pxViewController.m */; };
+		5688178114675339006E175D /* PicasaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5688178014675339006E175D /* PicasaViewController.m */; };
 		56B50EDA14674803007CA6BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B50ED914674803007CA6BE /* UIKit.framework */; };
 		56B50EDC14674803007CA6BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B50EDB14674803007CA6BE /* Foundation.framework */; };
 		56B50EDE14674803007CA6BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B50EDD14674803007CA6BE /* CoreGraphics.framework */; };
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5688177514675283006E175D /* FlickrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrViewController.h; sourceTree = "<group>"; };
+		5688177614675283006E175D /* FlickrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrViewController.m; sourceTree = "<group>"; };
+		5688177914675296006E175D /* SmugMugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmugMugViewController.h; sourceTree = "<group>"; };
+		5688177A14675296006E175D /* SmugMugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmugMugViewController.m; sourceTree = "<group>"; };
+		5688177C146752AB006E175D /* 500pxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 500pxViewController.h; sourceTree = "<group>"; };
+		5688177D146752AB006E175D /* 500pxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 500pxViewController.m; sourceTree = "<group>"; };
+		5688177F14675339006E175D /* PicasaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicasaViewController.h; sourceTree = "<group>"; };
+		5688178014675339006E175D /* PicasaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicasaViewController.m; sourceTree = "<group>"; };
 		56B50ED514674803007CA6BE /* Swyp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swyp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B50ED914674803007CA6BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		56B50EDB14674803007CA6BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -118,6 +130,14 @@
 				56B50EEB14674803007CA6BE /* MainStoryboard_iPhone.storyboard */,
 				56B50EEE14674803007CA6BE /* MainStoryboard_iPad.storyboard */,
 				56B50EF114674803007CA6BE /* ViewController.h */,
+				5688177914675296006E175D /* SmugMugViewController.h */,
+				5688177A14675296006E175D /* SmugMugViewController.m */,
+				5688177C146752AB006E175D /* 500pxViewController.h */,
+				5688177D146752AB006E175D /* 500pxViewController.m */,
+				5688177514675283006E175D /* FlickrViewController.h */,
+				5688177614675283006E175D /* FlickrViewController.m */,
+				5688177F14675339006E175D /* PicasaViewController.h */,
+				5688178014675339006E175D /* PicasaViewController.m */,
 				56B50EF214674803007CA6BE /* ViewController.m */,
 				56B50EE014674803007CA6BE /* Supporting Files */,
 			);
@@ -264,6 +284,10 @@
 				56B50EE614674803007CA6BE /* main.m in Sources */,
 				56B50EEA14674803007CA6BE /* AppDelegate.m in Sources */,
 				56B50EF314674803007CA6BE /* ViewController.m in Sources */,
+				5688177714675283006E175D /* FlickrViewController.m in Sources */,
+				5688177B14675296006E175D /* SmugMugViewController.m in Sources */,
+				5688177E146752AB006E175D /* 500pxViewController.m in Sources */,
+				5688178114675339006E175D /* PicasaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +467,7 @@
 				56B50F0D14674803007CA6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56B50F0E14674803007CA6BE /* Build configuration list for PBXNativeTarget "SwypTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +476,7 @@
 				56B50F1014674803007CA6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

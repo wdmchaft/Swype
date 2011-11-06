@@ -8,7 +8,7 @@
 
 #import "500pxViewController.h"
 
-@implementation _00pxViewController
+@implementation _500pxViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
